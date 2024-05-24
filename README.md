@@ -91,7 +91,7 @@ The `Makefile` provides several useful commands for setting up and managing the 
 
 - `inference.py`: The main script to run the water potability prediction.
 - `requirements.txt`: List of dependencies required for the project.
-- `model/water-potability.pkl`: Pre-trained model for predicting water potability.
+- `model/water_potability.pkl`: Pre-trained model for predicting water potability.
 - `scaler/scaler.pkl`: Scaler used for data normalization.
 - `data/test_data_water_potability.csv`: Sample test data for inference.
 
