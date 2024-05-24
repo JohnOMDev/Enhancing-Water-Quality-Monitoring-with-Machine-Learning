@@ -64,7 +64,7 @@ def get_predictions_from_db(db_path):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 2:
         print("Usage: python test.py <groundtruth>")
         sys.exit(1)
 
