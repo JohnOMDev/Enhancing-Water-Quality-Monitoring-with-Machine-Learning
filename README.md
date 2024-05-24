@@ -31,8 +31,8 @@ Follow these steps to set up the project:
 
 1. **Clone the repository**:
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone <https://github.com/JohnOMDev/Enhancing-Water-Quality-Monitoring-with-Machine-Learning.git>
+   cd <Enhancing-Water-Quality-Monitoring-with-Machine-Learning>
    ```
 
 2. **Install the requirements**:
@@ -90,6 +90,7 @@ The `Makefile` provides several useful commands for setting up and managing the 
 ### File Structure
 
 - `inference.py`: The main script to run the water potability prediction.
+- `test.py`: The test file.
 - `requirements.txt`: List of dependencies required for the project.
 - `model/water_potability.pkl`: Pre-trained model for predicting water potability.
 - `scaler/scaler.pkl`: Scaler used for data normalization.
